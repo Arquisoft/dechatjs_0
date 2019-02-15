@@ -1,7 +1,7 @@
 # dechatjs_0
 
 image:https://travis-ci.org/Arquisoft/dechatjs_0.svg?branch=master["Build Status", link="https://travis-ci.org/Arquisoft/dechatjs_0"]
-image:https://coveralls.io/github/Arquisoft/dechatjs_0["Coverage status", link="https://coveralls.io/repos/github/Arquisoft/dechatjs_0/badge.svg?branch=master"]
+image:https://coveralls.io/repos/github/Arquisoft/dechatjs_0/badge.svg["Coverage status", link="https://coveralls.io/github/Arquisoft/dechatjs_0"]
 
 Skeleton of application using Javascript technologies
 
