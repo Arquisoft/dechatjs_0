@@ -7,8 +7,8 @@
     "@babel/preset-es2016"
   ],
   "scripts": {
-    "test": "standard && nyc mocha --require @babel/register --report lcovonly | coveralls",
-    "coverage": "nyc node_modules/.bin/_mocha --require @babel/register -R spec --timeout 100 ",
+    "test": "standard && nyc --reporter lcov mocha --require @babel/register -R spec",
+    "coverage": "nyc --reporter text-lcov node_modules/.bin/_mocha --require @babel/register -R spec --timeout 100 | coveralls",
     "travisRepo": "./test/travisRepo.sh",
     "travis-deploy-once": "travis-deploy-once",
     "doc": "./node_modules/.bin/jsdoc -c jsdoc.json ./lib"
