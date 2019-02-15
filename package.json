@@ -1,0 +1,46 @@
+{
+  "name": "dechatjs_0",
+  "version": "0.0.0",
+  "description": "A decentralized chat",
+  "main": "index.js",
+  "presets": [
+    "@babel/preset-es2016"
+  ],
+  "scripts": {
+    "test": "standard && nyc mocha --require @babel/register -R spec",
+    "coverage": "nyc node_modules/.bin/_mocha --require @babel/register -R spec --timeout 100",
+    "travisRepo": "./test/travisRepo.sh",
+    "travis-deploy-once": "travis-deploy-once",
+    "doc": "./node_modules/.bin/jsdoc -c jsdoc.json ./lib"
+  },
+  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arquisoft/dechatjs_0.git"
+  },
+  "author": "Jose Emilio Labra Gayo <labra@uniovi.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arquisoft/dechatjs_0/issues"
+  },
+  "homepage": "https://github.com/arquisoft/dechatjs_0",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-istanbul": "^5.1.0",
+    "chai": "4.2.x",
+    "eslint": "^5.x",
+    "jsdoc": "^3.5.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0",
+    "standard": "*"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "istanbul": "^0.4.5",
+    "standard": "^12.0.1"
+  }
+}
