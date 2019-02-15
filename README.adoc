@@ -1,0 +1,5 @@
+# dechatjs_0
+
+image:https://travis-ci.org/Arquisoft/dechatjs_0.svg?branch=master["Build Status", link="https://travis-ci.org/Arquisoft/dechatjs_0"]
+
+Decentralized Chat Js 0
