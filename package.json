@@ -11,7 +11,7 @@
     "coverage": "nyc --reporter text-lcov node_modules/.bin/_mocha --require @babel/register -R spec --timeout 100 | coveralls",
     "travisRepo": "./test/travisRepo.sh",
     "travis-deploy-once": "travis-deploy-once",
-    "doc": "./node_modules/.bin/jsdoc -c jsdoc.json ./lib"
+    "doc": "./node_modules/.bin/asciidoctorjs"
   },
   "bin": {},
   "repository": {
@@ -30,6 +30,8 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/register": "^7.0.0",
+    "asciidoctor-cli": "^1.5.6-rc.1",
+    "asciidoctor.js": "^1.5.9",
     "babel-plugin-istanbul": "^5.1.0",
     "chai": "4.2.x",
     "coveralls": "^3.0.2",
