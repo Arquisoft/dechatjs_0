@@ -1,4 +1,4 @@
-# dechatjs_0
+= dechatjs_0
 
 image:https://travis-ci.org/Arquisoft/dechatjs_0.svg?branch=master["Build Status", link="https://travis-ci.org/Arquisoft/dechatjs_0"]
 image:https://coveralls.io/repos/github/Arquisoft/dechatjs_0/badge.svg["Coverage status", link="https://coveralls.io/github/Arquisoft/dechatjs_0"]
@@ -6,4 +6,17 @@ image:https://api.codacy.com/project/badge/Grade/da6fef0ea42a4139b6a7535530ce346
 
 Skeleton of application using Javascript technologies
 
+== Running tests
 
+----
+npm test
+----
+
+
+== Generating documentation
+
+----
+npm run doc
+----
+
+Generates documentation in `target` folder.
