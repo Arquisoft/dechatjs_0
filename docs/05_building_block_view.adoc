@@ -3,6 +3,9 @@
 
 == Building Block View
 
+image::images/diagrams/example.png[Component]
+
+
 [role="arc42help"]
 ****
 .Content
