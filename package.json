@@ -11,7 +11,7 @@
     "coverage": "nyc --reporter text-lcov node_modules/.bin/_mocha --require @babel/register -R spec --timeout 100 | coveralls",
     "travisRepo": "./test/travisRepo.sh",
     "travis-deploy-once": "travis-deploy-once",
-    "doc": "./node_modules/.bin/asciidoctorjs"
+    "doc": "./node_modules/.bin/asciidoctorjs  docs/index.adoc --destination-dir target"
   },
   "bin": {},
   "repository": {
