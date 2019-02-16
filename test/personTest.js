@@ -7,4 +7,9 @@ describe('person', function () {
     const foo = new Person('foo')
     assert.equal(foo.age, 0)
   })
+
+  it('keeps its name', function () {
+    const foo = new Person('foo')
+    assert.equal(foo.name, 'foo')
+  })
 })
