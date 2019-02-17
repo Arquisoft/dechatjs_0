@@ -17,8 +17,10 @@ class Person {
    * @param {int} age
    */
   setAge (age) {
-    if (age < 0) throw new Error('Cannot assign negative age')
-    else this._age = age
+    if (age < 0) {
+      throw new Error('Cannot assign negative age')
+    }
+    this._age = age
   }
 }
 
