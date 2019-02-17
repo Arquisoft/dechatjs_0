@@ -9,6 +9,7 @@
   "scripts": {
     "test": "standard && nyc --reporter lcov mocha --require @babel/register -R spec",
     "coverage": "nyc --reporter text-lcov node_modules/.bin/_mocha --require @babel/register -R spec --timeout 100 | coveralls",
+    "test-with-coverage": "nyc --reporter text-lcov node_modules/.bin/_mocha --require @babel/register -R spec --timeout 100 && cat ./coverage/lcov.info | codacy-coverage && rm -rf ./coverage",
     "travisRepo": "./test/travisRepo.sh",
     "travis-deploy-once": "travis-deploy-once",
     "puml": "./node_modules/.bin/puml",
@@ -50,6 +51,7 @@
     "standard": "*"
   },
   "dependencies": {
+    "codacy-coverage": "^3.4.0",
     "istanbul": "^0.4.5",
     "standard": "^12.0.1"
   }
