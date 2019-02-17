@@ -3,7 +3,7 @@
 
 == Building Block View
 
-image::images/diagrams/example.png[Component]
+image::diagrams/example.png[Component]
 
 
 [role="arc42help"]

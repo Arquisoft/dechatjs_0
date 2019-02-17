@@ -37,12 +37,9 @@
     "chai": "4.2.x",
     "coveralls": "^3.0.2",
     "eslint": "^5.x",
-    "grunt": "^1.0.3",
-    "grunt-asciidoctor": "^0.2.1",
-    "grunt-plantuml": "^1.0.1",
     "gulp": "^4.0.0",
-    "gulp-asciidoctor": "^1.5.5-4.3",
     "gulp-cli": "^2.0.1",
+    "gulp-exec": "^3.0.2",
     "gulp-puml": "^0.1.24",
     "gulp-svg2png": "^2.0.2",
     "jsdoc": "^3.5.5",
@@ -53,7 +50,6 @@
     "standard": "*"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
     "istanbul": "^0.4.5",
     "standard": "^12.0.1"
   }
