@@ -14,7 +14,7 @@
     "travisRepo": "./test/travisRepo.sh",
     "travis-deploy-once": "travis-deploy-once",
     "puml": "./node_modules/.bin/puml",
-    "docs": "./node_modules/.bin/asciidoctorjs  docs/index.adoc --destination-dir dist/docs"
+    "docs": "./node_modules/.bin/asciidoctorjs  adocs/index.adoc --destination-dir docs"
   },
   "bin": {},
   "repository": {
